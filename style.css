@@ -1,0 +1,55 @@
+.header { display:flex; justify-content:space-between; align-items:center; padding:16px 24px; border-bottom:1px solid #eee; }
+.top { position:sticky; top:0; background:#fff; z-index:10; }
+.logo-img { width:36px; height:36px; }
+.site-title { font-size:20px; margin-left:8px; display:inline-block; }
+.logo-box { display:flex; align-items:center; }
+.menu-list { display:flex; gap:16px; list-style:none; }
+.menu-link { text-decoration:none; color:#333; font-weight:600; }
+.menu-link.active { color:#0a58ff; }
+.only-desktop { display:inline-block; }
+
+.hero { display:flex; gap:24px; padding:24px; border-bottom:1px solid #eee; }
+.fullwidth { width:100%; }
+.banner { background:#f9fbff; }
+.bigtitle { font-size:32px; }
+.subtitle { color:#666; }
+.small { font-size:14px; }
+.cta-wrap .btn { margin-right:12px; }
+.hero-img { width:420px; max-width:100%; border-radius:8px; }
+
+.content { padding:24px; }
+.title { font-weight:700; color:#111; }
+.desc { color:#444; }
+.grid.four .cards { display:grid; grid-template-columns: repeat(4, 1fr); gap:16px; }
+.card { border:1px solid #eee; border-radius:8px; padding:16px; background:#fff; }
+.item { background:#fff; }
+.box { box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.promo { border:2px solid #ff4d4f; }
+.topimg { border-radius:6px; }
+.image { width:100%; border-radius:8px; }
+.price-row { display:flex; gap:8px; align-items:center; margin:8px 0; }
+.price.old { text-decoration:line-through; color:#999; }
+.price.new { color:#e60023; font-weight:700; }
+.highlight { background:#fff3cd; padding:0 6px; border-radius:4px; }
+.full { width:100%; }
+
+.btn { border:none; border-radius:6px; padding:10px 16px; cursor:pointer; }
+.blue { background:#0a58ff; color:#fff; }
+.red { background:#ff3b30; color:#fff; }
+.green { background:#21c55d; color:#fff; }
+.white { background:#fff; color:#111; border:1px solid #ddd; }
+.black { background:#111; color:#fff; }
+.large { font-size:16px; }
+.big { font-size:18px; padding:12px 18px; }
+.outline { background:transparent; border:1px solid #ddd; }
+
+.wrapper { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:24px; }
+.bg-dark { background:#0f172a; }
+.white { color:#fff; }
+.promo-img { width:420px; max-width:100%; border-radius:8px; }
+
+.footer { padding:24px; background:#111; color:#fff; }
+.cols { display:grid; grid-template-columns: repeat(3, 1fr); gap:16px; }
+.links { list-style:none; padding:0; }
+.link { color:#ddd; text-decoration:none; }
+.copy { text-align:center; margin-top:12px; font-size:12px; color:#aaa; }
